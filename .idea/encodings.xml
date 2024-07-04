@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/GRPCDemo/GrpcDemoClient/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GRPCDemo/GrpcDemoServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GRPCDemo/GrpcDemoServer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GRPCDemo/GrpcDomain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GRPCDemo/GrpcDomain/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GRPCDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/GRPCDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MavenCommon/src/main/java" charset="UTF-8" />

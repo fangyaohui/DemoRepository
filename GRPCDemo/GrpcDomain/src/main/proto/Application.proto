@@ -1,0 +1,31 @@
+syntax = "proto3";
+option java_multiple_files = false;
+option java_package = "com.fang.demo.rpc";
+option java_outer_classname = "SysApplicationInfo";
+
+//import "Common.proto";
+
+message SysApplication {
+  int64 id = 1;
+  int32 appType = 2;
+  string appName = 3;
+}
+
+message GetAllAppInfoListRequest {
+}
+
+message GetAllAppInfoListResponse {
+  bool success = 1;
+  int32 code = 2;
+  string msg = 3;
+  repeated SysApplication appInfo = 4;
+}
+
+
+service SysApplicationService {
+  /**
+    查询所有应用信息
+   */
+  rpc getAllAppInfoList(GetAllAppInfoListRequest) returns (GetAllAppInfoListResponse) {}
+
+}
