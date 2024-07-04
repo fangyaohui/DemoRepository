@@ -4,10 +4,15 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/AnnotationDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/MavenCommon/pom.xml" />
+        <option value="$PROJECT_DIR$/GRPCDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/GRPCDemo/GrpcDemoServer/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/GRPCDemo/GrpcDemoClient/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

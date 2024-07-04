@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AnnotationDemo/AnnotationDemo.iml" filepath="$PROJECT_DIR$/AnnotationDemo/AnnotationDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DemoRepository.iml" filepath="$PROJECT_DIR$/.idea/DemoRepository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GRPCDemo.iml" filepath="$PROJECT_DIR$/GRPCDemo/GRPCDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GrpcDemoClient/GrpcDemoClient.iml" filepath="$PROJECT_DIR$/GRPCDemo/GrpcDemoClient/GrpcDemoClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GrpcDemoServer/GrpcDemoServer.iml" filepath="$PROJECT_DIR$/GRPCDemo/GrpcDemoServer/GrpcDemoServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MavenCommon/MavenCommon.iml" filepath="$PROJECT_DIR$/MavenCommon/MavenCommon.iml" />
     </modules>
   </component>
 </project>
