@@ -1170,28 +1170,19 @@ public final class SysApplicationInfo {
         getMsgBytes();
 
     /**
-     * <code>repeated .SysApplication appInfo = 4;</code>
+     * <code>.SysApplication appInfo = 4;</code>
+     * @return Whether the appInfo field is set.
      */
-    java.util.List<com.fang.demo.rpc.SysApplicationInfo.SysApplication> 
-        getAppInfoList();
+    boolean hasAppInfo();
     /**
-     * <code>repeated .SysApplication appInfo = 4;</code>
+     * <code>.SysApplication appInfo = 4;</code>
+     * @return The appInfo.
      */
-    com.fang.demo.rpc.SysApplicationInfo.SysApplication getAppInfo(int index);
+    com.fang.demo.rpc.SysApplicationInfo.SysApplication getAppInfo();
     /**
-     * <code>repeated .SysApplication appInfo = 4;</code>
+     * <code>.SysApplication appInfo = 4;</code>
      */
-    int getAppInfoCount();
-    /**
-     * <code>repeated .SysApplication appInfo = 4;</code>
-     */
-    java.util.List<? extends com.fang.demo.rpc.SysApplicationInfo.SysApplicationOrBuilder> 
-        getAppInfoOrBuilderList();
-    /**
-     * <code>repeated .SysApplication appInfo = 4;</code>
-     */
-    com.fang.demo.rpc.SysApplicationInfo.SysApplicationOrBuilder getAppInfoOrBuilder(
-        int index);
+    com.fang.demo.rpc.SysApplicationInfo.SysApplicationOrBuilder getAppInfoOrBuilder();
   }
   /**
    * Protobuf type {@code GetAllAppInfoListResponse}
@@ -1207,7 +1198,6 @@ public final class SysApplicationInfo {
     }
     private GetAllAppInfoListResponse() {
       msg_ = "";
-      appInfo_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -1230,7 +1220,6 @@ public final class SysApplicationInfo {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
-      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -1258,12 +1247,16 @@ public final class SysApplicationInfo {
               break;
             }
             case 34: {
-              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                appInfo_ = new java.util.ArrayList<com.fang.demo.rpc.SysApplicationInfo.SysApplication>();
-                mutable_bitField0_ |= 0x00000001;
+              com.fang.demo.rpc.SysApplicationInfo.SysApplication.Builder subBuilder = null;
+              if (appInfo_ != null) {
+                subBuilder = appInfo_.toBuilder();
               }
-              appInfo_.add(
-                  input.readMessage(com.fang.demo.rpc.SysApplicationInfo.SysApplication.parser(), extensionRegistry));
+              appInfo_ = input.readMessage(com.fang.demo.rpc.SysApplicationInfo.SysApplication.parser(), extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom(appInfo_);
+                appInfo_ = subBuilder.buildPartial();
+              }
+
               break;
             }
             default: {
@@ -1281,9 +1274,6 @@ public final class SysApplicationInfo {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          appInfo_ = java.util.Collections.unmodifiableList(appInfo_);
-        }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
       }
@@ -1362,43 +1352,29 @@ public final class SysApplicationInfo {
     }
 
     public static final int APPINFO_FIELD_NUMBER = 4;
-    private java.util.List<com.fang.demo.rpc.SysApplicationInfo.SysApplication> appInfo_;
+    private com.fang.demo.rpc.SysApplicationInfo.SysApplication appInfo_;
     /**
-     * <code>repeated .SysApplication appInfo = 4;</code>
+     * <code>.SysApplication appInfo = 4;</code>
+     * @return Whether the appInfo field is set.
      */
     @java.lang.Override
-    public java.util.List<com.fang.demo.rpc.SysApplicationInfo.SysApplication> getAppInfoList() {
-      return appInfo_;
+    public boolean hasAppInfo() {
+      return appInfo_ != null;
     }
     /**
-     * <code>repeated .SysApplication appInfo = 4;</code>
+     * <code>.SysApplication appInfo = 4;</code>
+     * @return The appInfo.
      */
     @java.lang.Override
-    public java.util.List<? extends com.fang.demo.rpc.SysApplicationInfo.SysApplicationOrBuilder> 
-        getAppInfoOrBuilderList() {
-      return appInfo_;
+    public com.fang.demo.rpc.SysApplicationInfo.SysApplication getAppInfo() {
+      return appInfo_ == null ? com.fang.demo.rpc.SysApplicationInfo.SysApplication.getDefaultInstance() : appInfo_;
     }
     /**
-     * <code>repeated .SysApplication appInfo = 4;</code>
+     * <code>.SysApplication appInfo = 4;</code>
      */
     @java.lang.Override
-    public int getAppInfoCount() {
-      return appInfo_.size();
-    }
-    /**
-     * <code>repeated .SysApplication appInfo = 4;</code>
-     */
-    @java.lang.Override
-    public com.fang.demo.rpc.SysApplicationInfo.SysApplication getAppInfo(int index) {
-      return appInfo_.get(index);
-    }
-    /**
-     * <code>repeated .SysApplication appInfo = 4;</code>
-     */
-    @java.lang.Override
-    public com.fang.demo.rpc.SysApplicationInfo.SysApplicationOrBuilder getAppInfoOrBuilder(
-        int index) {
-      return appInfo_.get(index);
+    public com.fang.demo.rpc.SysApplicationInfo.SysApplicationOrBuilder getAppInfoOrBuilder() {
+      return getAppInfo();
     }
 
     private byte memoizedIsInitialized = -1;
@@ -1424,8 +1400,8 @@ public final class SysApplicationInfo {
       if (!getMsgBytes().isEmpty()) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 3, msg_);
       }
-      for (int i = 0; i < appInfo_.size(); i++) {
-        output.writeMessage(4, appInfo_.get(i));
+      if (appInfo_ != null) {
+        output.writeMessage(4, getAppInfo());
       }
       unknownFields.writeTo(output);
     }
@@ -1447,9 +1423,9 @@ public final class SysApplicationInfo {
       if (!getMsgBytes().isEmpty()) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, msg_);
       }
-      for (int i = 0; i < appInfo_.size(); i++) {
+      if (appInfo_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(4, appInfo_.get(i));
+          .computeMessageSize(4, getAppInfo());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1472,8 +1448,11 @@ public final class SysApplicationInfo {
           != other.getCode()) return false;
       if (!getMsg()
           .equals(other.getMsg())) return false;
-      if (!getAppInfoList()
-          .equals(other.getAppInfoList())) return false;
+      if (hasAppInfo() != other.hasAppInfo()) return false;
+      if (hasAppInfo()) {
+        if (!getAppInfo()
+            .equals(other.getAppInfo())) return false;
+      }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -1492,9 +1471,9 @@ public final class SysApplicationInfo {
       hash = (53 * hash) + getCode();
       hash = (37 * hash) + MSG_FIELD_NUMBER;
       hash = (53 * hash) + getMsg().hashCode();
-      if (getAppInfoCount() > 0) {
+      if (hasAppInfo()) {
         hash = (37 * hash) + APPINFO_FIELD_NUMBER;
-        hash = (53 * hash) + getAppInfoList().hashCode();
+        hash = (53 * hash) + getAppInfo().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
@@ -1624,7 +1603,6 @@ public final class SysApplicationInfo {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
-          getAppInfoFieldBuilder();
         }
       }
       @java.lang.Override
@@ -1637,10 +1615,10 @@ public final class SysApplicationInfo {
         msg_ = "";
 
         if (appInfoBuilder_ == null) {
-          appInfo_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
+          appInfo_ = null;
         } else {
-          appInfoBuilder_.clear();
+          appInfo_ = null;
+          appInfoBuilder_ = null;
         }
         return this;
       }
@@ -1668,15 +1646,10 @@ public final class SysApplicationInfo {
       @java.lang.Override
       public com.fang.demo.rpc.SysApplicationInfo.GetAllAppInfoListResponse buildPartial() {
         com.fang.demo.rpc.SysApplicationInfo.GetAllAppInfoListResponse result = new com.fang.demo.rpc.SysApplicationInfo.GetAllAppInfoListResponse(this);
-        int from_bitField0_ = bitField0_;
         result.success_ = success_;
         result.code_ = code_;
         result.msg_ = msg_;
         if (appInfoBuilder_ == null) {
-          if (((bitField0_ & 0x00000001) != 0)) {
-            appInfo_ = java.util.Collections.unmodifiableList(appInfo_);
-            bitField0_ = (bitField0_ & ~0x00000001);
-          }
           result.appInfo_ = appInfo_;
         } else {
           result.appInfo_ = appInfoBuilder_.build();
@@ -1739,31 +1712,8 @@ public final class SysApplicationInfo {
           msg_ = other.msg_;
           onChanged();
         }
-        if (appInfoBuilder_ == null) {
-          if (!other.appInfo_.isEmpty()) {
-            if (appInfo_.isEmpty()) {
-              appInfo_ = other.appInfo_;
-              bitField0_ = (bitField0_ & ~0x00000001);
-            } else {
-              ensureAppInfoIsMutable();
-              appInfo_.addAll(other.appInfo_);
-            }
-            onChanged();
-          }
-        } else {
-          if (!other.appInfo_.isEmpty()) {
-            if (appInfoBuilder_.isEmpty()) {
-              appInfoBuilder_.dispose();
-              appInfoBuilder_ = null;
-              appInfo_ = other.appInfo_;
-              bitField0_ = (bitField0_ & ~0x00000001);
-              appInfoBuilder_ = 
-                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
-                   getAppInfoFieldBuilder() : null;
-            } else {
-              appInfoBuilder_.addAllMessages(other.appInfo_);
-            }
-          }
+        if (other.hasAppInfo()) {
+          mergeAppInfo(other.getAppInfo());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -1793,7 +1743,6 @@ public final class SysApplicationInfo {
         }
         return this;
       }
-      private int bitField0_;
 
       private boolean success_ ;
       /**
@@ -1933,239 +1882,118 @@ public final class SysApplicationInfo {
         return this;
       }
 
-      private java.util.List<com.fang.demo.rpc.SysApplicationInfo.SysApplication> appInfo_ =
-        java.util.Collections.emptyList();
-      private void ensureAppInfoIsMutable() {
-        if (!((bitField0_ & 0x00000001) != 0)) {
-          appInfo_ = new java.util.ArrayList<com.fang.demo.rpc.SysApplicationInfo.SysApplication>(appInfo_);
-          bitField0_ |= 0x00000001;
-         }
-      }
-
-      private com.google.protobuf.RepeatedFieldBuilderV3<
+      private com.fang.demo.rpc.SysApplicationInfo.SysApplication appInfo_;
+      private com.google.protobuf.SingleFieldBuilderV3<
           com.fang.demo.rpc.SysApplicationInfo.SysApplication, com.fang.demo.rpc.SysApplicationInfo.SysApplication.Builder, com.fang.demo.rpc.SysApplicationInfo.SysApplicationOrBuilder> appInfoBuilder_;
+      /**
+       * <code>.SysApplication appInfo = 4;</code>
+       * @return Whether the appInfo field is set.
+       */
+      public boolean hasAppInfo() {
+        return appInfoBuilder_ != null || appInfo_ != null;
+      }
+      /**
+       * <code>.SysApplication appInfo = 4;</code>
+       * @return The appInfo.
+       */
+      public com.fang.demo.rpc.SysApplicationInfo.SysApplication getAppInfo() {
+        if (appInfoBuilder_ == null) {
+          return appInfo_ == null ? com.fang.demo.rpc.SysApplicationInfo.SysApplication.getDefaultInstance() : appInfo_;
+        } else {
+          return appInfoBuilder_.getMessage();
+        }
+      }
+      /**
+       * <code>.SysApplication appInfo = 4;</code>
+       */
+      public Builder setAppInfo(com.fang.demo.rpc.SysApplicationInfo.SysApplication value) {
+        if (appInfoBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          appInfo_ = value;
+          onChanged();
+        } else {
+          appInfoBuilder_.setMessage(value);
+        }
 
-      /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
-       */
-      public java.util.List<com.fang.demo.rpc.SysApplicationInfo.SysApplication> getAppInfoList() {
-        if (appInfoBuilder_ == null) {
-          return java.util.Collections.unmodifiableList(appInfo_);
-        } else {
-          return appInfoBuilder_.getMessageList();
-        }
+        return this;
       }
       /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
-       */
-      public int getAppInfoCount() {
-        if (appInfoBuilder_ == null) {
-          return appInfo_.size();
-        } else {
-          return appInfoBuilder_.getCount();
-        }
-      }
-      /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
-       */
-      public com.fang.demo.rpc.SysApplicationInfo.SysApplication getAppInfo(int index) {
-        if (appInfoBuilder_ == null) {
-          return appInfo_.get(index);
-        } else {
-          return appInfoBuilder_.getMessage(index);
-        }
-      }
-      /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
+       * <code>.SysApplication appInfo = 4;</code>
        */
       public Builder setAppInfo(
-          int index, com.fang.demo.rpc.SysApplicationInfo.SysApplication value) {
-        if (appInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureAppInfoIsMutable();
-          appInfo_.set(index, value);
-          onChanged();
-        } else {
-          appInfoBuilder_.setMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
-       */
-      public Builder setAppInfo(
-          int index, com.fang.demo.rpc.SysApplicationInfo.SysApplication.Builder builderForValue) {
-        if (appInfoBuilder_ == null) {
-          ensureAppInfoIsMutable();
-          appInfo_.set(index, builderForValue.build());
-          onChanged();
-        } else {
-          appInfoBuilder_.setMessage(index, builderForValue.build());
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
-       */
-      public Builder addAppInfo(com.fang.demo.rpc.SysApplicationInfo.SysApplication value) {
-        if (appInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureAppInfoIsMutable();
-          appInfo_.add(value);
-          onChanged();
-        } else {
-          appInfoBuilder_.addMessage(value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
-       */
-      public Builder addAppInfo(
-          int index, com.fang.demo.rpc.SysApplicationInfo.SysApplication value) {
-        if (appInfoBuilder_ == null) {
-          if (value == null) {
-            throw new NullPointerException();
-          }
-          ensureAppInfoIsMutable();
-          appInfo_.add(index, value);
-          onChanged();
-        } else {
-          appInfoBuilder_.addMessage(index, value);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
-       */
-      public Builder addAppInfo(
           com.fang.demo.rpc.SysApplicationInfo.SysApplication.Builder builderForValue) {
         if (appInfoBuilder_ == null) {
-          ensureAppInfoIsMutable();
-          appInfo_.add(builderForValue.build());
+          appInfo_ = builderForValue.build();
           onChanged();
         } else {
-          appInfoBuilder_.addMessage(builderForValue.build());
+          appInfoBuilder_.setMessage(builderForValue.build());
         }
+
         return this;
       }
       /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
+       * <code>.SysApplication appInfo = 4;</code>
        */
-      public Builder addAppInfo(
-          int index, com.fang.demo.rpc.SysApplicationInfo.SysApplication.Builder builderForValue) {
+      public Builder mergeAppInfo(com.fang.demo.rpc.SysApplicationInfo.SysApplication value) {
         if (appInfoBuilder_ == null) {
-          ensureAppInfoIsMutable();
-          appInfo_.add(index, builderForValue.build());
+          if (appInfo_ != null) {
+            appInfo_ =
+              com.fang.demo.rpc.SysApplicationInfo.SysApplication.newBuilder(appInfo_).mergeFrom(value).buildPartial();
+          } else {
+            appInfo_ = value;
+          }
           onChanged();
         } else {
-          appInfoBuilder_.addMessage(index, builderForValue.build());
+          appInfoBuilder_.mergeFrom(value);
         }
+
         return this;
       }
       /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
-       */
-      public Builder addAllAppInfo(
-          java.lang.Iterable<? extends com.fang.demo.rpc.SysApplicationInfo.SysApplication> values) {
-        if (appInfoBuilder_ == null) {
-          ensureAppInfoIsMutable();
-          com.google.protobuf.AbstractMessageLite.Builder.addAll(
-              values, appInfo_);
-          onChanged();
-        } else {
-          appInfoBuilder_.addAllMessages(values);
-        }
-        return this;
-      }
-      /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
+       * <code>.SysApplication appInfo = 4;</code>
        */
       public Builder clearAppInfo() {
         if (appInfoBuilder_ == null) {
-          appInfo_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000001);
+          appInfo_ = null;
           onChanged();
         } else {
-          appInfoBuilder_.clear();
+          appInfo_ = null;
+          appInfoBuilder_ = null;
         }
+
         return this;
       }
       /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
+       * <code>.SysApplication appInfo = 4;</code>
        */
-      public Builder removeAppInfo(int index) {
-        if (appInfoBuilder_ == null) {
-          ensureAppInfoIsMutable();
-          appInfo_.remove(index);
-          onChanged();
-        } else {
-          appInfoBuilder_.remove(index);
-        }
-        return this;
+      public com.fang.demo.rpc.SysApplicationInfo.SysApplication.Builder getAppInfoBuilder() {
+        
+        onChanged();
+        return getAppInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
+       * <code>.SysApplication appInfo = 4;</code>
        */
-      public com.fang.demo.rpc.SysApplicationInfo.SysApplication.Builder getAppInfoBuilder(
-          int index) {
-        return getAppInfoFieldBuilder().getBuilder(index);
-      }
-      /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
-       */
-      public com.fang.demo.rpc.SysApplicationInfo.SysApplicationOrBuilder getAppInfoOrBuilder(
-          int index) {
-        if (appInfoBuilder_ == null) {
-          return appInfo_.get(index);  } else {
-          return appInfoBuilder_.getMessageOrBuilder(index);
-        }
-      }
-      /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
-       */
-      public java.util.List<? extends com.fang.demo.rpc.SysApplicationInfo.SysApplicationOrBuilder> 
-           getAppInfoOrBuilderList() {
+      public com.fang.demo.rpc.SysApplicationInfo.SysApplicationOrBuilder getAppInfoOrBuilder() {
         if (appInfoBuilder_ != null) {
-          return appInfoBuilder_.getMessageOrBuilderList();
+          return appInfoBuilder_.getMessageOrBuilder();
         } else {
-          return java.util.Collections.unmodifiableList(appInfo_);
+          return appInfo_ == null ?
+              com.fang.demo.rpc.SysApplicationInfo.SysApplication.getDefaultInstance() : appInfo_;
         }
       }
       /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
+       * <code>.SysApplication appInfo = 4;</code>
        */
-      public com.fang.demo.rpc.SysApplicationInfo.SysApplication.Builder addAppInfoBuilder() {
-        return getAppInfoFieldBuilder().addBuilder(
-            com.fang.demo.rpc.SysApplicationInfo.SysApplication.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
-       */
-      public com.fang.demo.rpc.SysApplicationInfo.SysApplication.Builder addAppInfoBuilder(
-          int index) {
-        return getAppInfoFieldBuilder().addBuilder(
-            index, com.fang.demo.rpc.SysApplicationInfo.SysApplication.getDefaultInstance());
-      }
-      /**
-       * <code>repeated .SysApplication appInfo = 4;</code>
-       */
-      public java.util.List<com.fang.demo.rpc.SysApplicationInfo.SysApplication.Builder> 
-           getAppInfoBuilderList() {
-        return getAppInfoFieldBuilder().getBuilderList();
-      }
-      private com.google.protobuf.RepeatedFieldBuilderV3<
+      private com.google.protobuf.SingleFieldBuilderV3<
           com.fang.demo.rpc.SysApplicationInfo.SysApplication, com.fang.demo.rpc.SysApplicationInfo.SysApplication.Builder, com.fang.demo.rpc.SysApplicationInfo.SysApplicationOrBuilder> 
           getAppInfoFieldBuilder() {
         if (appInfoBuilder_ == null) {
-          appInfoBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+          appInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
               com.fang.demo.rpc.SysApplicationInfo.SysApplication, com.fang.demo.rpc.SysApplicationInfo.SysApplication.Builder, com.fang.demo.rpc.SysApplicationInfo.SysApplicationOrBuilder>(
-                  appInfo_,
-                  ((bitField0_ & 0x00000001) != 0),
+                  getAppInfo(),
                   getParentForChildren(),
                   isClean());
           appInfo_ = null;
@@ -2253,7 +2081,7 @@ public final class SysApplicationInfo {
       "\002id\030\001 \001(\003\022\017\n\007appType\030\002 \001(\005\022\017\n\007appName\030\003 " +
       "\001(\t\"\032\n\030GetAllAppInfoListRequest\"i\n\031GetAl" +
       "lAppInfoListResponse\022\017\n\007success\030\001 \001(\010\022\014\n" +
-      "\004code\030\002 \001(\005\022\013\n\003msg\030\003 \001(\t\022 \n\007appInfo\030\004 \003(" +
+      "\004code\030\002 \001(\005\022\013\n\003msg\030\003 \001(\t\022 \n\007appInfo\030\004 \001(" +
       "\0132\017.SysApplication2e\n\025SysApplicationServ" +
       "ice\022L\n\021getAllAppInfoList\022\031.GetAllAppInfo" +
       "ListRequest\032\032.GetAllAppInfoListResponse\"" +

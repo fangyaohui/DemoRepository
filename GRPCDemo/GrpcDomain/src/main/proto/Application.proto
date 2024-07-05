@@ -18,7 +18,7 @@ message GetAllAppInfoListResponse {
   bool success = 1;
   int32 code = 2;
   string msg = 3;
-  repeated SysApplication appInfo = 4;
+  SysApplication appInfo = 4;
 }
 
 

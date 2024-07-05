@@ -19,6 +19,7 @@
     <modules>
         <module>MavenCommon</module>
         <module>AnnotationDemo</module>
+        <module>Domain</module>
     </modules>
 
 </project>

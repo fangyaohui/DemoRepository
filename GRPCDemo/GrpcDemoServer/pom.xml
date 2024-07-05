@@ -36,6 +36,13 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
+        <!-- 引入所有的Domain -->
+        <dependency>
+            <groupId>com.fang.demo</groupId>
+            <artifactId>Domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <build>

@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Domain" />
         <module name="AnnotationDemo" />
         <module name="GrpcDemoClient" />
         <module name="GrpcDomain" />
@@ -16,6 +17,7 @@
       <module name="AnnotationDemo" target="8" />
       <module name="com-fang-demo-grpc" target="8" />
       <module name="DemoRepository" target="8" />
+      <module name="Domain" target="17" />
       <module name="GRPCDemo" target="8" />
       <module name="GrpcDemoClient" target="17" />
       <module name="GrpcDemoServer" target="8" />
@@ -27,6 +29,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AnnotationDemo" options="-parameters" />
+      <module name="Domain" options="-parameters" />
       <module name="GRPCDemo" options="" />
       <module name="GrpcDemoClient" options="-parameters" />
       <module name="GrpcDemoServer" options="" />
