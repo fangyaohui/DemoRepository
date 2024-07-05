@@ -18,6 +18,8 @@
 
     <modules>
         <module>GrpcDemoServer</module>
+        <module>GrpcDomain</module>
+        <module>GrpcDemoClient</module>
     </modules>
 
 
