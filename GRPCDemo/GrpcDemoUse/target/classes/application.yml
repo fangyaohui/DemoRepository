@@ -1,0 +1,11 @@
+server:
+  port: 59120
+
+fang:
+  yao:
+    hui:
+      name: "fangyaohui"
+
+grpc:
+  client:
+    server: "192.168.0.29:63931"

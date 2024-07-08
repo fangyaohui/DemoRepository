@@ -1,0 +1,64 @@
+syntax = "proto3";
+option java_multiple_files = false;
+option java_package = "com.fang.demo.rpc";
+option java_outer_classname = "BizObjStatisticsInfo";
+
+//import "Common.proto";
+
+message BizObjStatistics {
+  int64 bizObjStatisticsId = 1;
+  int32 bizObjType = 2;
+  int32 bizObjCalcType = 3;
+  int32 dashboardShowType = 4;
+  string bizObjName = 5;
+  string bizObjAlias = 6;
+}
+
+message UpdateBizObjStatisticsRequest {
+  BizObjStatistics bizObjStatistics = 1;
+}
+
+message UpdateBizObjStatisticsResponse {
+  bool success = 1;
+  int32 code = 2;
+  string msg = 3;
+}
+
+message GetBizObjStatisticsStatusRequest {
+  string bizObjStatisticsCode = 1;
+}
+
+message GetBizObjStatisticsStatusResponse {
+  bool success = 1;
+  int32 code = 2;
+  string msg = 3;
+  BizObjStatistics bizObjStatistics = 4;
+}
+
+message BatchQueryBizObjStatisticsListRequest {
+  repeated string bizObjStatisticsCode = 1;
+}
+
+message BatchQueryBizObjStatisticsListResponse {
+  bool success = 1;
+  int32 code = 2;
+  string msg = 3;
+  repeated BizObjStatistics bizObjStatistics = 4;
+}
+
+service BizObjStatisticsUpdateService {
+  /**
+    更新业务对象信息
+   */
+  rpc updateBizObjStatistics(UpdateBizObjStatisticsRequest) returns (UpdateBizObjStatisticsResponse) {}
+
+  /**
+    获取单个业务对象信息
+ */
+  rpc getBizObjStatistics(GetBizObjStatisticsStatusRequest) returns (GetBizObjStatisticsStatusResponse) {}
+
+  /**
+    批量查询统计业务对象信息列表
+ */
+  rpc batchQueryBizObjStatisticsList(BatchQueryBizObjStatisticsListRequest) returns (BatchQueryBizObjStatisticsListResponse) {}
+}
