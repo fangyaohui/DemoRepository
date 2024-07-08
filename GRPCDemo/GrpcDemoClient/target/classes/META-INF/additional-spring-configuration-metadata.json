@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "grpc.client.server-adder",
+      "type": "java.lang.String",
+      "description": "Description for grpc.client.server-adder."
+    }
+  ] }

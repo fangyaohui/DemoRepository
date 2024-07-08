@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "grpc.client",
+      "type": "com.example.grpcdemoclient.config.RpcProperties",
+      "sourceType": "com.example.grpcdemoclient.config.RpcProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "grpc.client.server",
+      "type": "java.lang.String",
+      "sourceType": "com.example.grpcdemoclient.config.RpcProperties"
+    },
+    {
+      "name": "grpc.client.server-adder",
+      "type": "java.lang.String",
+      "description": "Description for grpc.client.server-adder."
+    }
+  ],
+  "hints": []
+}
