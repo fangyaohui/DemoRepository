@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/GRPCDemo/GrpcDemoClient/pom.xml" />
         <option value="$PROJECT_DIR$/GRPCDemo/GrpcDomain/pom.xml" />
+        <option value="$PROJECT_DIR$/GRPCDemo/GrpcDemoUse/pom.xml" />
       </list>
     </option>
   </component>

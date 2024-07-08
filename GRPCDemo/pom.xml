@@ -20,6 +20,7 @@
         <module>GrpcDemoServer</module>
         <module>GrpcDomain</module>
         <module>GrpcDemoClient</module>
+        <module>GrpcDemoUse</module>
     </modules>
 
 

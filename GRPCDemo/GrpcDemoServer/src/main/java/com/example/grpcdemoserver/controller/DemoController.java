@@ -9,6 +9,5 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2024-07-04
  **/
 @RestController
-
 public class DemoController {
 }

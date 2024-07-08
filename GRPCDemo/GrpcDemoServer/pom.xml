@@ -14,8 +14,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>com-fang-demo-grpcService</name>
     <description>com-fang-demo-grpcService</description>
-    <packaging>pom</packaging>
-
 
     <dependencies>
 
@@ -29,6 +27,7 @@
             <groupId>net.devh</groupId>
             <artifactId>grpc-server-spring-boot-starter</artifactId>
         </dependency>
+
         <!-- RPC领域定义库 -->
         <dependency>
             <groupId>com.fang.demo</groupId>

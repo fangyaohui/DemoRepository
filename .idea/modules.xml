@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GRPCDemo.iml" filepath="$PROJECT_DIR$/GRPCDemo/GRPCDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GrpcDemoClient/GrpcDemoClient.iml" filepath="$PROJECT_DIR$/GRPCDemo/GrpcDemoClient/GrpcDemoClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GrpcDemoServer/GrpcDemoServer.iml" filepath="$PROJECT_DIR$/GRPCDemo/GrpcDemoServer/GrpcDemoServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GrpcDemoUse/GrpcDemoUse.iml" filepath="$PROJECT_DIR$/GRPCDemo/GrpcDemoUse/GrpcDemoUse.iml" />
       <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GrpcDomain/GrpcDomain.iml" filepath="$PROJECT_DIR$/GRPCDemo/GrpcDomain/GrpcDomain.iml" />
       <module fileurl="file://$PROJECT_DIR$/MavenCommon/MavenCommon.iml" filepath="$PROJECT_DIR$/MavenCommon/MavenCommon.iml" />
     </modules>
