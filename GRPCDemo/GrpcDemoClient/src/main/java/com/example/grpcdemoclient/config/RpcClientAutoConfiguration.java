@@ -3,8 +3,6 @@ package com.example.grpcdemoclient.config;
 import com.example.grpcdemoclient.reader.AppInfoReader;
 import com.example.grpcdemoclient.reader.impl.AppInfoReaderImpl;
 import com.example.grpcdemoclient.stub.AppInfoSyncClient;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

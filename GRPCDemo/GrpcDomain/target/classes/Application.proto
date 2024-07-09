@@ -12,6 +12,7 @@ message SysApplication {
 }
 
 message GetAllAppInfoListRequest {
+  int32 id = 1;
 }
 
 message GetAllAppInfoListResponse {

@@ -31,6 +31,7 @@ public class AppInfoReaderImpl implements AppInfoReader {
     public SysApplicationInfo.SysApplication getAllAppInfoList() {
 
         SysApplicationInfo.GetAllAppInfoListRequest request =SysApplicationInfo.GetAllAppInfoListRequest.newBuilder()
+                .setId(1)
                 .build();
 
         SysApplicationInfo.GetAllAppInfoListResponse response = appInfoSyncClient.getAllAppInfoListResponse(request);

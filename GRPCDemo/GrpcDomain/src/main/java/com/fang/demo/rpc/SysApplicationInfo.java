@@ -726,6 +726,12 @@ public final class SysApplicationInfo {
   public interface GetAllAppInfoListRequestOrBuilder extends
       // @@protoc_insertion_point(interface_extends:GetAllAppInfoListRequest)
       com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>int32 id = 1;</code>
+     * @return The id.
+     */
+    int getId();
   }
   /**
    * Protobuf type {@code GetAllAppInfoListRequest}
@@ -772,6 +778,11 @@ public final class SysApplicationInfo {
             case 0:
               done = true;
               break;
+            case 8: {
+
+              id_ = input.readInt32();
+              break;
+            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -804,6 +815,17 @@ public final class SysApplicationInfo {
               com.fang.demo.rpc.SysApplicationInfo.GetAllAppInfoListRequest.class, com.fang.demo.rpc.SysApplicationInfo.GetAllAppInfoListRequest.Builder.class);
     }
 
+    public static final int ID_FIELD_NUMBER = 1;
+    private int id_;
+    /**
+     * <code>int32 id = 1;</code>
+     * @return The id.
+     */
+    @java.lang.Override
+    public int getId() {
+      return id_;
+    }
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -818,6 +840,9 @@ public final class SysApplicationInfo {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+      if (id_ != 0) {
+        output.writeInt32(1, id_);
+      }
       unknownFields.writeTo(output);
     }
 
@@ -827,6 +852,10 @@ public final class SysApplicationInfo {
       if (size != -1) return size;
 
       size = 0;
+      if (id_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(1, id_);
+      }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
       return size;
@@ -842,6 +871,8 @@ public final class SysApplicationInfo {
       }
       com.fang.demo.rpc.SysApplicationInfo.GetAllAppInfoListRequest other = (com.fang.demo.rpc.SysApplicationInfo.GetAllAppInfoListRequest) obj;
 
+      if (getId()
+          != other.getId()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -853,6 +884,8 @@ public final class SysApplicationInfo {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + ID_FIELD_NUMBER;
+      hash = (53 * hash) + getId();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -986,6 +1019,8 @@ public final class SysApplicationInfo {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        id_ = 0;
+
         return this;
       }
 
@@ -1012,6 +1047,7 @@ public final class SysApplicationInfo {
       @java.lang.Override
       public com.fang.demo.rpc.SysApplicationInfo.GetAllAppInfoListRequest buildPartial() {
         com.fang.demo.rpc.SysApplicationInfo.GetAllAppInfoListRequest result = new com.fang.demo.rpc.SysApplicationInfo.GetAllAppInfoListRequest(this);
+        result.id_ = id_;
         onBuilt();
         return result;
       }
@@ -1060,6 +1096,9 @@ public final class SysApplicationInfo {
 
       public Builder mergeFrom(com.fang.demo.rpc.SysApplicationInfo.GetAllAppInfoListRequest other) {
         if (other == com.fang.demo.rpc.SysApplicationInfo.GetAllAppInfoListRequest.getDefaultInstance()) return this;
+        if (other.getId() != 0) {
+          setId(other.getId());
+        }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
         return this;
@@ -1086,6 +1125,37 @@ public final class SysApplicationInfo {
             mergeFrom(parsedMessage);
           }
         }
+        return this;
+      }
+
+      private int id_ ;
+      /**
+       * <code>int32 id = 1;</code>
+       * @return The id.
+       */
+      @java.lang.Override
+      public int getId() {
+        return id_;
+      }
+      /**
+       * <code>int32 id = 1;</code>
+       * @param value The id to set.
+       * @return This builder for chaining.
+       */
+      public Builder setId(int value) {
+        
+        id_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearId() {
+        
+        id_ = 0;
+        onChanged();
         return this;
       }
       @java.lang.Override
@@ -2079,14 +2149,14 @@ public final class SysApplicationInfo {
     java.lang.String[] descriptorData = {
       "\n\021Application.proto\">\n\016SysApplication\022\n\n" +
       "\002id\030\001 \001(\003\022\017\n\007appType\030\002 \001(\005\022\017\n\007appName\030\003 " +
-      "\001(\t\"\032\n\030GetAllAppInfoListRequest\"i\n\031GetAl" +
-      "lAppInfoListResponse\022\017\n\007success\030\001 \001(\010\022\014\n" +
-      "\004code\030\002 \001(\005\022\013\n\003msg\030\003 \001(\t\022 \n\007appInfo\030\004 \001(" +
-      "\0132\017.SysApplication2e\n\025SysApplicationServ" +
-      "ice\022L\n\021getAllAppInfoList\022\031.GetAllAppInfo" +
-      "ListRequest\032\032.GetAllAppInfoListResponse\"" +
-      "\000B)\n\021com.fang.demo.rpcB\022SysApplicationIn" +
-      "foP\000b\006proto3"
+      "\001(\t\"&\n\030GetAllAppInfoListRequest\022\n\n\002id\030\001 " +
+      "\001(\005\"i\n\031GetAllAppInfoListResponse\022\017\n\007succ" +
+      "ess\030\001 \001(\010\022\014\n\004code\030\002 \001(\005\022\013\n\003msg\030\003 \001(\t\022 \n\007" +
+      "appInfo\030\004 \001(\0132\017.SysApplication2e\n\025SysApp" +
+      "licationService\022L\n\021getAllAppInfoList\022\031.G" +
+      "etAllAppInfoListRequest\032\032.GetAllAppInfoL" +
+      "istResponse\"\000B)\n\021com.fang.demo.rpcB\022SysA" +
+      "pplicationInfoP\000b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2103,7 +2173,7 @@ public final class SysApplicationInfo {
     internal_static_GetAllAppInfoListRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_GetAllAppInfoListRequest_descriptor,
-        new java.lang.String[] { });
+        new java.lang.String[] { "Id", });
     internal_static_GetAllAppInfoListResponse_descriptor =
       getDescriptor().getMessageTypes().get(2);
     internal_static_GetAllAppInfoListResponse_fieldAccessorTable = new

@@ -8,4 +8,4 @@ fang:
 
 grpc:
   client:
-    server: "192.168.0.29:63931"
+    server: "localhost:63931"

@@ -16,7 +16,6 @@ import org.springframework.util.ObjectUtils;
  * @date 2024-07-05
  **/
 @Slf4j
-@Component
 public class AppInfoSyncClient extends BaseSyncClient{
 
     private final SysApplicationServiceGrpc.SysApplicationServiceBlockingStub applicationServiceBlockingStub;
