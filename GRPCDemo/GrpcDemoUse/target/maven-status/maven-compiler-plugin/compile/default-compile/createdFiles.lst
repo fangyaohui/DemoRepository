@@ -1,0 +1,4 @@
+com\example\grpcdemouse\controller\GrpcDemoUserController.class
+com\example\grpcdemouse\GrpcDemoUseApplication.class
+com\example\grpcdemouse\config\AppConfigBean.class
+com\example\grpcdemouse\config\MyAppConfigProperties.class

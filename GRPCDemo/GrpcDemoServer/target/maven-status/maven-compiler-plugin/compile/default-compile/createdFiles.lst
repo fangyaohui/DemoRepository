@@ -1,0 +1,3 @@
+com\example\grpcdemoserver\controller\DemoController.class
+com\example\grpcdemoserver\manager\AppDataManager.class
+com\example\grpcdemoserver\GrpcDemoServerApplication.class

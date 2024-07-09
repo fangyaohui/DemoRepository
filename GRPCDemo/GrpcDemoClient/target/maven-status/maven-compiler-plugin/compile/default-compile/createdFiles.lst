@@ -1,0 +1,7 @@
+com\example\grpcdemoclient\config\RpcClientAutoConfiguration.class
+com\example\grpcdemoclient\stub\AppInfoSyncClient.class
+com\example\grpcdemoclient\config\RpcProperties.class
+com\example\grpcdemoclient\reader\impl\AppInfoReaderImpl.class
+com\example\grpcdemoclient\stub\BaseSyncClient.class
+META-INF\spring-configuration-metadata.json
+com\example\grpcdemoclient\reader\AppInfoReader.class
