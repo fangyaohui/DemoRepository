@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/GRPCDemo/GrpcDemoClient/pom.xml" />
         <option value="$PROJECT_DIR$/GRPCDemo/GrpcDomain/pom.xml" />
         <option value="$PROJECT_DIR$/GRPCDemo/GrpcDemoUse/pom.xml" />
+        <option value="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-nacos/pom.xml" />
       </list>
     </option>
   </component>

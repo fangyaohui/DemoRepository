@@ -3,6 +3,19 @@ server:
 
 grpc:
   server:
-    port: 63931
+    port: 9898
 
-
+spring:
+  application:
+    name: local-grpc-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.29:8849
+        username: nacos
+        password: nacos
+        service: local-grpc-server
+  #读取配置中心文件配置
+#  config:
+#    import:
+#      - optional:nacos:${spring.application.name}.${spring.cloud.nacos.config.file-extension}

@@ -16,7 +16,6 @@ import org.springframework.util.ObjectUtils;
  **/
 @GrpcService
 @Slf4j
-@RequiredArgsConstructor
 public class AppDataManager extends SysApplicationServiceGrpc.SysApplicationServiceImplBase {
 
 

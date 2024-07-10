@@ -1,4 +1,7 @@
+D:\Code\DemoRepository\GRPCDemo\GrpcDemoUse\src\main\java\com\example\grpcdemouse\Interceptor\LogGrpcInterceptor.java
 D:\Code\DemoRepository\GRPCDemo\GrpcDemoUse\src\main\java\com\example\grpcdemouse\config\AppConfigBean.java
-D:\Code\DemoRepository\GRPCDemo\GrpcDemoUse\src\main\java\com\example\grpcdemouse\config\MyAppConfigProperties.java
 D:\Code\DemoRepository\GRPCDemo\GrpcDemoUse\src\main\java\com\example\grpcdemouse\controller\GrpcDemoUserController.java
+D:\Code\DemoRepository\GRPCDemo\GrpcDemoUse\src\main\java\com\example\grpcdemouse\service\GrpcClientService.java
+D:\Code\DemoRepository\GRPCDemo\GrpcDemoUse\src\main\java\com\example\grpcdemouse\config\MyAppConfigProperties.java
 D:\Code\DemoRepository\GRPCDemo\GrpcDemoUse\src\main\java\com\example\grpcdemouse\GrpcDemoUseApplication.java
+D:\Code\DemoRepository\GRPCDemo\GrpcDemoUse\src\main\java\com\example\grpcdemouse\config\GlobalClientInterceptorConfiguration.java

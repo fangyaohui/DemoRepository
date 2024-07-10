@@ -21,6 +21,7 @@
         <module>AnnotationDemo</module>
         <module>Domain</module>
         <module>GRPCDemo</module>
+        <module>com-fang-demo-base</module>
     </modules>
 
 </project>

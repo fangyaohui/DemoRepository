@@ -6,6 +6,14 @@ fang:
     hui:
       name: "fangyaohui"
 
+spring:
+  application:
+    name: local-grpc-client
+
 grpc:
   client:
-    server: "localhost:63931"
+    local-grpc-server:
+      address: 'static://127.0.0.1:9898'
+      enableKeepAlive: true
+      keepAliveWithoutCalls: true
+      negotiationType: plaintext

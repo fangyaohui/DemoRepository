@@ -4,9 +4,6 @@ import com.example.grpcdemoclient.config.RpcProperties;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.micrometer.common.util.StringUtils;
-import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.util.ObjectUtils;
 
 import javax.annotation.Resource;

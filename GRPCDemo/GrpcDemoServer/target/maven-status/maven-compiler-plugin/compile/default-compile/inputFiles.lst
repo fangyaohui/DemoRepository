@@ -1,3 +1,5 @@
-D:\Code\DemoRepository\GRPCDemo\GrpcDemoServer\src\main\java\com\example\grpcdemoserver\controller\DemoController.java
 D:\Code\DemoRepository\GRPCDemo\GrpcDemoServer\src\main\java\com\example\grpcdemoserver\GrpcDemoServerApplication.java
+D:\Code\DemoRepository\GRPCDemo\GrpcDemoServer\src\main\java\com\example\grpcdemoserver\Interceptor\LogGrpcInterceptor.java
+D:\Code\DemoRepository\GRPCDemo\GrpcDemoServer\src\main\java\com\example\grpcdemoserver\controller\DemoController.java
 D:\Code\DemoRepository\GRPCDemo\GrpcDemoServer\src\main\java\com\example\grpcdemoserver\manager\AppDataManager.java
+D:\Code\DemoRepository\GRPCDemo\GrpcDemoServer\src\main\java\com\example\grpcdemoserver\config\GlobalInterceptorConfiguration.java

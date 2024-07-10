@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GrpcDemoUse/GrpcDemoUse.iml" filepath="$PROJECT_DIR$/GRPCDemo/GrpcDemoUse/GrpcDemoUse.iml" />
       <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GrpcDomain/GrpcDomain.iml" filepath="$PROJECT_DIR$/GRPCDemo/GrpcDomain/GrpcDomain.iml" />
       <module fileurl="file://$PROJECT_DIR$/MavenCommon/MavenCommon.iml" filepath="$PROJECT_DIR$/MavenCommon/MavenCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-base.iml" filepath="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-nacos/com-fang-demo-nacos.iml" filepath="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-nacos/com-fang-demo-nacos.iml" />
     </modules>
   </component>
 </project>

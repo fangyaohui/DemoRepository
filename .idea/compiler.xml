@@ -7,23 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="com-fang-demo-nacos" />
+        <module name="GrpcDemoServer" />
         <module name="Domain" />
         <module name="AnnotationDemo" />
         <module name="GrpcDemoUse" />
         <module name="GrpcDemoClient" />
-        <module name="GrpcDemoServer" />
         <module name="GrpcDomain" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AnnotationDemo" target="8" />
+      <module name="com-fang-demo-base" target="17" />
       <module name="com-fang-demo-grpc" target="8" />
+      <module name="com-fang-demo-nacos" target="17" />
       <module name="DemoRepository" target="8" />
       <module name="Domain" target="17" />
       <module name="GRPCDemo" target="8" />
-      <module name="GrpcDemoClient" target="17" />
-      <module name="GrpcDemoServer" target="17" />
-      <module name="GrpcDemoUse" target="17" />
+      <module name="GrpcDemoClient" target="8" />
+      <module name="GrpcDemoServer" target="8" />
+      <module name="GrpcDemoUse" target="8" />
       <module name="GrpcDomain" target="1.8" />
       <module name="MavenCommon" target="8" />
       <module name="MavenCommon (1)" target="8" />
@@ -38,6 +41,8 @@
       <module name="GrpcDemoServer" options="-parameters" />
       <module name="GrpcDemoUse" options="-parameters" />
       <module name="GrpcDomain" options="-parameters" />
+      <module name="com-fang-demo-base" options="-parameters" />
+      <module name="com-fang-demo-nacos" options="-parameters" />
     </option>
   </component>
 </project>

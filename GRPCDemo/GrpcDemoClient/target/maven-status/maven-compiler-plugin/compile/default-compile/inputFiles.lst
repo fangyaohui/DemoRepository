@@ -1,6 +1,6 @@
 D:\Code\DemoRepository\GRPCDemo\GrpcDemoClient\src\main\java\com\example\grpcdemoclient\config\RpcClientAutoConfiguration.java
-D:\Code\DemoRepository\GRPCDemo\GrpcDemoClient\src\main\java\com\example\grpcdemoclient\config\RpcProperties.java
-D:\Code\DemoRepository\GRPCDemo\GrpcDemoClient\src\main\java\com\example\grpcdemoclient\reader\AppInfoReader.java
 D:\Code\DemoRepository\GRPCDemo\GrpcDemoClient\src\main\java\com\example\grpcdemoclient\reader\impl\AppInfoReaderImpl.java
-D:\Code\DemoRepository\GRPCDemo\GrpcDemoClient\src\main\java\com\example\grpcdemoclient\stub\AppInfoSyncClient.java
 D:\Code\DemoRepository\GRPCDemo\GrpcDemoClient\src\main\java\com\example\grpcdemoclient\stub\BaseSyncClient.java
+D:\Code\DemoRepository\GRPCDemo\GrpcDemoClient\src\main\java\com\example\grpcdemoclient\stub\AppInfoSyncClient.java
+D:\Code\DemoRepository\GRPCDemo\GrpcDemoClient\src\main\java\com\example\grpcdemoclient\reader\AppInfoReader.java
+D:\Code\DemoRepository\GRPCDemo\GrpcDemoClient\src\main\java\com\example\grpcdemoclient\config\RpcProperties.java
