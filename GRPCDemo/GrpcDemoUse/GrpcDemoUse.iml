@@ -30,7 +30,6 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.6.13" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.4.2" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.4" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.4" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.4" level="project" />
@@ -90,7 +89,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: net.minidev:json-smart:2.4.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.minidev:accessors-smart:2.4.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.ow2.asm:asm:9.1" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:3.21.0" level="project" />
@@ -113,5 +111,26 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:5.3.23" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.8.4" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.24" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2021.0.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.cloud:spring-cloud-alibaba-commons:2021.0.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.nacos:nacos-client:2.2.0" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.nacos:nacos-auth-plugin:2.2.0" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.nacos:nacos-encryption-plugin:2.2.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.15" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.15" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.15" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.13" level="project" />
+    <orderEntry type="library" name="Maven: io.prometheus:simpleclient:0.12.0" level="project" />
+    <orderEntry type="library" name="Maven: io.prometheus:simpleclient_tracer_otel:0.12.0" level="project" />
+    <orderEntry type="library" name="Maven: io.prometheus:simpleclient_tracer_common:0.12.0" level="project" />
+    <orderEntry type="library" name="Maven: io.prometheus:simpleclient_tracer_otel_agent:0.12.0" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.spring:spring-context-support:1.0.11" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-commons:3.1.5" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:5.6.8" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-context:3.1.5" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2021.0.5.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
   </component>
 </module>
