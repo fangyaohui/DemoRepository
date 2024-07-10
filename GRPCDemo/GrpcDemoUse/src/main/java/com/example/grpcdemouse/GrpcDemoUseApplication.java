@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 //@SpringBootApplication(scanBasePackages = {"com.example.grpcdemoclient.reader.*",
 //        "com.example.grpcdemouse.*","com.example.grpcdemoclient.*",})
-@SpringBootApplication
+@SpringBootApplication()
 public class GrpcDemoUseApplication {
 
     public static void main(String[] args) {

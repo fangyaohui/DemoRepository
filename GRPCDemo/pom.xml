@@ -12,7 +12,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>GRPCDemo</artifactId>
+    <artifactId>com-fang-demo-grpcDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 

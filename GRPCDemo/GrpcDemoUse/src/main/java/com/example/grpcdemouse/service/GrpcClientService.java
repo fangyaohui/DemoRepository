@@ -18,7 +18,6 @@ import org.springframework.util.ObjectUtils;
 @Slf4j
 public class GrpcClientService {
 
-    @GrpcClient("local-grpc-server")
     private SysApplicationServiceGrpc.SysApplicationServiceBlockingStub applicationServiceBlockingStub;
 
     public String sendMessage(String name) {

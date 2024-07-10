@@ -8,7 +8,26 @@ fang:
 
 spring:
   application:
-    name: local-grpc-client
+    name: com-fang-demo-grpcDemoUse
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        server-addr: ${NACOS_HOST:localhost}:${NACOS_PORT:8849}
+        namespace: dev
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        namespace: dev
+        refresh-enabled: true
+        extension-configs:
+          - data-id: com-fang-demo-grpcDemoUse-dev.yml
+            refresh: true
+        enable-remote-sync-config: true
+  config:
+    import:
+      - optional:nacos:application-dev.yml
+      - optional:nacos:${spring.application.name}-dev.yml
 
 grpc:
   client:

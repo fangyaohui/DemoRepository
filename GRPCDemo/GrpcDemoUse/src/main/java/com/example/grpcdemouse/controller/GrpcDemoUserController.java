@@ -1,6 +1,7 @@
 package com.example.grpcdemouse.controller;
 
 //import com.example.grpcdemoclient.reader.AppInfoReader;
+import com.example.grpcdemoclient.reader.AppInfoReader;
 import com.example.grpcdemouse.service.GrpcClientService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -19,8 +20,8 @@ import javax.annotation.Resource;
 @Slf4j
 public class GrpcDemoUserController {
 
-//    @Resource
-//    private AppInfoReader appInfoReader;
+    @Resource
+    private AppInfoReader appInfoReader;
 
     @Resource
     private GrpcClientService grpcClientService;
@@ -28,7 +29,8 @@ public class GrpcDemoUserController {
     @GetMapping("/getGrpcDemoTest")
     public String getGrpcDemoTest(){
         log.info("getGrpcDemoTest start running ...");
-        return grpcClientService.sendMessage("name");
+        return appInfoReader.getAllAppInfoList().toString();
+//        return grpcClientService.sendMessage("name");
     }
 
 }

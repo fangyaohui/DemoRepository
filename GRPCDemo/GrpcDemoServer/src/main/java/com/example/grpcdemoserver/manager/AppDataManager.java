@@ -14,7 +14,7 @@ import org.springframework.util.ObjectUtils;
  * @Author yaoHui
  * @date 2024-07-04
  **/
-@GrpcService
+@GrpcService()
 @Slf4j
 public class AppDataManager extends SysApplicationServiceGrpc.SysApplicationServiceImplBase {
 

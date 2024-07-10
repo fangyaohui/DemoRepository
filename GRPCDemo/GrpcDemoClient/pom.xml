@@ -5,11 +5,11 @@
 
     <parent>
         <groupId>com.fang.demo</groupId>
-        <artifactId>GRPCDemo</artifactId>
+        <artifactId>com-fang-demo-grpcDemo</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>GrpcDemoClient</artifactId>
+    <artifactId>com-fang-demo-grpcDemoClient</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>GrpcDemoClient</name>
     <description>GrpcDemoClient</description>
