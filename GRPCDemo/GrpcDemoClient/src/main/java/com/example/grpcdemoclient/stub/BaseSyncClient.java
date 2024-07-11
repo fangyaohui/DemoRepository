@@ -1,9 +1,9 @@
 package com.example.grpcdemoclient.stub;
 
+import com.alibaba.cloud.commons.lang.StringUtils;
 import com.example.grpcdemoclient.config.RpcProperties;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-import io.micrometer.common.util.StringUtils;
 import org.springframework.util.ObjectUtils;
 
 import javax.annotation.Resource;
@@ -24,15 +24,15 @@ public class BaseSyncClient {
 
     public BaseSyncClient(RpcProperties rpcProperties){
 
-        if(!ObjectUtils.isEmpty(rpcProperties) && !StringUtils.isEmpty(rpcProperties.getServer())){
+        if(!ObjectUtils.isEmpty(rpcProperties) && !StringUtils.isEmpty(rpcProperties.getServerAddr())){
             this.rpcProperties = rpcProperties;
         }
 
-        this.managedChannel = ManagedChannelBuilder.forTarget(this.rpcProperties.getServer())
+        this.managedChannel = ManagedChannelBuilder.forTarget(this.rpcProperties.getServerAddr())
                 .usePlaintext().build();
     }
 
     public BaseSyncClient(){
-        this.managedChannel = ManagedChannelBuilder.forTarget(rpcProperties.getServer()).usePlaintext().build();
+        this.managedChannel = ManagedChannelBuilder.forTarget(rpcProperties.getServerAddr()).usePlaintext().build();
     }
 }

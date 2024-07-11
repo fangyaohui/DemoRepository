@@ -22,6 +22,7 @@
         <module>Domain</module>
         <module>GRPCDemo</module>
         <module>com-fang-demo-base</module>
+        <module>com-fang-demo-platform</module>
     </modules>
 
 </project>

@@ -29,10 +29,9 @@ spring:
       - optional:nacos:application-dev.yml
       - optional:nacos:${spring.application.name}-dev.yml
 
-grpc:
-  client:
-    local-grpc-server:
-      address: 'static://127.0.0.1:9898'
-      enableKeepAlive: true
-      keepAliveWithoutCalls: true
-      negotiationType: plaintext
+board:
+  gov:
+    mdm:
+      sync:
+        enabled: true
+        serverAddr: "127.0.0.1:65123"

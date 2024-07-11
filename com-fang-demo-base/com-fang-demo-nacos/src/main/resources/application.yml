@@ -1,0 +1,18 @@
+
+server:
+  port: 64961
+
+spring:
+  application:
+    name: @project.artifactId@
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        server-addr: localhost:8849
+        namespace: dev
+#  config:
+#    import:
+#      - optional:nacos:application-dev.yml
+#      - optional:nacos:${spring.application.name}-dev.yml

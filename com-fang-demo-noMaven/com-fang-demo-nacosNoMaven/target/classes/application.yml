@@ -1,0 +1,22 @@
+
+server:
+  port: 64289
+spring:
+  application:
+    name: board-gov-sso-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8849
+        namespace: dev
+#      config:
+#        server-addr: localhost:8849
+#        namespace: dev
+#        group: DEFAULT_GROUP
+#        file-extension: yaml
+#        prefix: ${spring.application.name}-dev.yml
+#  config:
+#    import:
+#      - optional:nacos:application-dev.yml
+#      - optional:nacos:${spring.application.name}-dev.yml
+

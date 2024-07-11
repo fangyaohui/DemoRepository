@@ -1,24 +1,36 @@
 package com.example.grpcdemoclient.config;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import org.springframework.beans.factory.annotation.Configurable;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
+
 
 /**
- * @FileName RpcProperties
+ * gRPC配置属性定义
+ *
+ * @Author luchao
  * @Description
- * @Author yaoHui
- * @date 2024-07-05
- **/
+ * @Date ：Created in 2023/3/14 17:17
+ */
+@ConfigurationProperties(prefix = "board.gov.mdm.sync")
 @Data
 @Configuration
-@ConfigurationProperties(prefix = "grpc.client")
 public class RpcProperties {
+    /**
+     * 数据同步开关
+     * 默认为true
+     */
+    private Boolean enabled = true;
 
-    private String server;
+    /**
+     * 数据同步服务地址
+     * gRPC服务端地址
+     */
+    private String serverAddr;
+
+    /**
+     * 是否数据同步gRPC拦截器已开启
+     */
+    private Boolean interceptorEnabled = true;
 
 }

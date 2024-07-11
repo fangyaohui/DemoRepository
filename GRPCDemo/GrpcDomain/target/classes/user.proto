@@ -1,0 +1,27 @@
+
+syntax = "proto3";
+
+option java_package = "com.fang.demo.rpc";
+option java_outer_classname = "UserServiceProto"; //编译后的类名
+option java_multiple_files = false; //生成多个文件
+
+// 接口类
+service UserServiceApi {
+  rpc login (LoginInfoDTO) returns (LoginResultVo);
+}
+
+// 请求参数
+message LoginInfoDTO {
+  string username = 1;
+  string password=2;
+}
+
+// 返回结果
+message LoginResultVo {
+  UserInfo data = 1; // 数据
+}
+
+message UserInfo {
+  string token = 1; // token信息
+  int32 id = 2; // 用户Id
+}

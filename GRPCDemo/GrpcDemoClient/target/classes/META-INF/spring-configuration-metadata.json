@@ -1,15 +1,28 @@
 {
   "groups": [
     {
-      "name": "grpc.client",
+      "name": "board.gov.mdm.sync",
       "type": "com.example.grpcdemoclient.config.RpcProperties",
       "sourceType": "com.example.grpcdemoclient.config.RpcProperties"
     }
   ],
   "properties": [
     {
-      "name": "grpc.client.server",
+      "name": "board.gov.mdm.sync.enabled",
+      "type": "java.lang.Boolean",
+      "description": "数据同步开关 默认为true",
+      "sourceType": "com.example.grpcdemoclient.config.RpcProperties"
+    },
+    {
+      "name": "board.gov.mdm.sync.interceptor-enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否数据同步gRPC拦截器已开启",
+      "sourceType": "com.example.grpcdemoclient.config.RpcProperties"
+    },
+    {
+      "name": "board.gov.mdm.sync.server-addr",
       "type": "java.lang.String",
+      "description": "数据同步服务地址 gRPC服务端地址",
       "sourceType": "com.example.grpcdemoclient.config.RpcProperties"
     }
   ],
