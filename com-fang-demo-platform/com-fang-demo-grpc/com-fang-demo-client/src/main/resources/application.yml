@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: @project.artifactId@
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: localhost:8849
+        namespace: dev
+server:
+  port: 61731

@@ -4,16 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>com-fang-demo-platform</artifactId>
+        <artifactId>com-fang-demo-grpc</artifactId>
         <groupId>com.fang.demo</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>com-fang-demo-maven</artifactId>
+    <artifactId>com-fang-demo-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>com-fang-demo-maven</name>
-    <description>com-fang-demo-maven</description>
+    <name>com-fang-demo-client</name>
+    <description>com-fang-demo-client</description>
 
     <properties>
 
@@ -21,10 +21,7 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-        </dependency>
+
     </dependencies>
 
 </project>

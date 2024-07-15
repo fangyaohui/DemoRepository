@@ -1,13 +1,33 @@
 
 spring:
+  profiles:
+    active: dev
   application:
-    name: fang-yao-hui
+    name: @project.artifactId@
   cloud:
     nacos:
       discovery:
         username: nacos
         password: nacos
         server-addr: localhost:8849
-        namespace: public
+        namespace: dev
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        namespace: ${spring.profiles.active}
+        refresh-enabled: true
+        extension-configs:
+          - data-id: ${spring.application.name}-${spring.profiles.active}.yml
+            refresh: true
+        enable-remote-sync-config: true
+  config:
+    import:
+      - optional:nacos:application-${spring.profiles.active}.yml
+      - optional:nacos:${spring.application.name}-${spring.profiles.active}.yml
 server:
   port: 8083
+
+
+#user:
+#  id: 2001
+#  name: fangyaohui
+#  age: 23

@@ -15,8 +15,10 @@
     <name>com-fang-demo-grpc</name>
     <description>com-fang-demo-grpc</description>
 
-    <dependencies>
+    <packaging>pom</packaging>
 
-    </dependencies>
+    <modules>
+        <module>com-fang-demo-client</module>
+    </modules>
 
 </project>
