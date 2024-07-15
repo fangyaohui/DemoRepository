@@ -3,7 +3,6 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/AnnotationDemo/pom.xml" />
         <option value="$PROJECT_DIR$/MavenCommon/pom.xml" />
         <option value="$PROJECT_DIR$/GRPCDemo/pom.xml" />
         <option value="$PROJECT_DIR$/GRPCDemo/GrpcDemoServer/pom.xml" />

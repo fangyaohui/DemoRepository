@@ -1,4 +1,0 @@
-com\example\annotationdemo\annotation\Data.class
-com\example\annotationdemo\AnnotationDemoApplication.class
-com\example\annotationdemo\processor\DataProcessor.class
-META-INF\services\javax.annotation.processing.Processor

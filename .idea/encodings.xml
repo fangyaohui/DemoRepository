@@ -25,7 +25,10 @@
     <file url="file://$PROJECT_DIR$/com-fang-demo-base/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-fang-demo-noMaven/com-fang-demo-nacosNoMaven/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-domain/com-fang-demo-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-domain/com-fang-demo-biz/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-domain/com-fang-demo-rpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-domain/com-fang-demo-rpc/src/main/proto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-domain/com-fang-demo-rpc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-domain/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-domain/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-client/src/main/java" charset="UTF-8" />

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AnnotationDemo/AnnotationDemo.iml" filepath="$PROJECT_DIR$/AnnotationDemo/AnnotationDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DemoRepository.iml" filepath="$PROJECT_DIR$/.idea/DemoRepository.iml" />
       <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GRPCDemo.iml" filepath="$PROJECT_DIR$/GRPCDemo/GRPCDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GrpcDemoClient/GrpcDemoClient.iml" filepath="$PROJECT_DIR$/GRPCDemo/GrpcDemoClient/GrpcDemoClient.iml" />
