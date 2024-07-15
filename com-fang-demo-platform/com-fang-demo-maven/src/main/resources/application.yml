@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: fang-yao-hui
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: localhost:8849
+        namespace: public
+server:
+  port: 8083
