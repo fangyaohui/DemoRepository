@@ -13,11 +13,18 @@
         <option value="$PROJECT_DIR$/GRPCDemo/GrpcDemoUse/pom.xml" />
         <option value="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-nacos/pom.xml" />
         <option value="$PROJECT_DIR$/com-fang-demo-noMaven/com-fang-demo-nacosNoMaven/pom.xml" />
-        <option value="$PROJECT_DIR$/com-fang-demo-platform/nacosDemo/pom.xml" />
         <option value="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/pom.xml" />
         <option value="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-maven/pom.xml" />
         <option value="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-client/pom.xml" />
+        <option value="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-maven/pom.xml" />
+        <option value="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-server/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Domain/pom.xml" />
+        <option value="$PROJECT_DIR$/GRPCDemo/GrpcDomain/com-fang-demo-rpc/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
