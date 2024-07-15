@@ -12,10 +12,11 @@
       <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GrpcDomain/GrpcDomain.iml" filepath="$PROJECT_DIR$/GRPCDemo/GrpcDomain/GrpcDomain.iml" />
       <module fileurl="file://$PROJECT_DIR$/MavenCommon/MavenCommon.iml" filepath="$PROJECT_DIR$/MavenCommon/MavenCommon.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-base.iml" filepath="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-grpc.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-grpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-maven/com-fang-demo-maven.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-maven/com-fang-demo-maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-nacos/com-fang-demo-nacos.iml" filepath="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-nacos/com-fang-demo-nacos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/com-fang-demo-noMaven/com-fang-demo-nacosNoMaven/com-fang-demo-nacosNoMaven.iml" filepath="$PROJECT_DIR$/com-fang-demo-noMaven/com-fang-demo-nacosNoMaven/com-fang-demo-nacosNoMaven.iml" />
-      <module fileurl="file://$PROJECT_DIR$/com-fang-demo-noMaven/com-fang-demo-noMaven.iml" filepath="$PROJECT_DIR$/com-fang-demo-noMaven/com-fang-demo-noMaven.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-platform.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/nacosDemo/nacosDemo.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/nacosDemo/nacosDemo.iml" />
     </modules>
   </component>
 </project>

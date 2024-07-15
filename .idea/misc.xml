@@ -12,8 +12,10 @@
         <option value="$PROJECT_DIR$/GRPCDemo/GrpcDomain/pom.xml" />
         <option value="$PROJECT_DIR$/GRPCDemo/GrpcDemoUse/pom.xml" />
         <option value="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-nacos/pom.xml" />
-        <option value="$PROJECT_DIR$/com-fang-demo-noMaven/pom.xml" />
         <option value="$PROJECT_DIR$/com-fang-demo-noMaven/com-fang-demo-nacosNoMaven/pom.xml" />
+        <option value="$PROJECT_DIR$/com-fang-demo-platform/nacosDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/pom.xml" />
+        <option value="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-maven/pom.xml" />
       </list>
     </option>
   </component>

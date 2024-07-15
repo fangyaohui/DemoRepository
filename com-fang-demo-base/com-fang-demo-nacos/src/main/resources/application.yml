@@ -7,11 +7,11 @@ spring:
     name: @project.artifactId@
   cloud:
     nacos:
-      username: nacos
-      password: nacos
       discovery:
+        username: nacos
+        password: nacos
         server-addr: localhost:8849
-        namespace: dev
+        namespace: public
 #  config:
 #    import:
 #      - optional:nacos:application-dev.yml

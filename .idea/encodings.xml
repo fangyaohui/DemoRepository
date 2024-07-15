@@ -20,7 +20,13 @@
     <file url="file://$PROJECT_DIR$/com-fang-demo-base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-fang-demo-base/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-fang-demo-noMaven/com-fang-demo-nacosNoMaven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-maven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-maven/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-fang-demo-platform/nacosDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/com-fang-demo-platform/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-fang-demo-platform/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
