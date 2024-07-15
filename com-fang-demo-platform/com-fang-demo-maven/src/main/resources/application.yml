@@ -25,10 +25,4 @@ spring:
   config:
     import:
       - optional:nacos:application-${spring.profiles.active}.yml
-      - optional:nacos:${spring.application.name}-${spring.profiles.active}.yml
-
-
-#user:
-#  id: 2001
-#  name: fangyaohui
-#  age: 23
+#      - optional:nacos:${spring.application.name}-${spring.profiles.active}.yml

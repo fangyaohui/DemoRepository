@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-client/pom.xml" />
         <option value="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-maven/pom.xml" />
         <option value="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-server/pom.xml" />
+        <option value="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-useClient/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

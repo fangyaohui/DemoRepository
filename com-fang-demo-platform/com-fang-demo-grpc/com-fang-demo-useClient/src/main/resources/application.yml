@@ -1,5 +1,5 @@
 server:
-  port: 61731
+  port: 63654
 
 spring:
   profiles:
@@ -26,6 +26,13 @@ spring:
       - optional:nacos:application-${spring.profiles.active}.yml
 #      - optional:nacos:${spring.application.name}-${spring.profiles.active}.yml
 
+#com:
+#  fang:
+#    demo:
+#      sync:
+#        server: localhost
+#        port: 62591
+
 grpc:
   client:
     com-fang-demo-server:
@@ -43,3 +50,4 @@ grpc:
       # plaintext | plaintext_upgrade | tls
       # 明文通信且http/2 | 明文通信且升级http/1.1为http/2 | 使用TLS（ALPN/NPN）通信
       negotiationType: plaintext
+

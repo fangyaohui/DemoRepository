@@ -1,4 +1,4 @@
-package com.fang.demo.comfangdemoclient.controller;
+package com.fang.demo.comfangdemouseclient.controller;
 
 import com.fang.demo.comfangdemoclient.service.GreeterClientService;
 import lombok.AllArgsConstructor;
@@ -6,21 +6,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @FileName controller
+ * @FileName SayHelloController
  * @Description
  * @Author yaoHui
  * @date 2024-07-15
  **/
 @RestController
-@RequestMapping("/client")
+@RequestMapping("/sayHello")
 @AllArgsConstructor
-public class controller {
+public class SayHelloController {
 
     private GreeterClientService greeterClientService;
 
-    @RequestMapping("/getGrpc")
-    public String getGrpc(){
-        String name = "fangyaohui";
-        return greeterClientService.sayHello(name);
+    @RequestMapping("/getHelloWorld")
+    public String getHelloWorld(){
+
+        return greeterClientService.sayHello("Hello World");
     }
 }
