@@ -12,6 +12,13 @@
 
     <artifactId>com-fang-demo-platform</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+    </dependencies>
+
     <modules>
         <module>com-fang-demo-grpc</module>
         <module>com-fang-demo-maven</module>
