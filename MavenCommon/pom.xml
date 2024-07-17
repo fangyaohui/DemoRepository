@@ -45,6 +45,7 @@
         <mybatis.version>2.2.2</mybatis.version>
         <!--  mybatis-plus版本      -->
         <mybatis-plus.version>3.5.2</mybatis-plus.version>
+        <fastjson.version>1.2.75</fastjson.version>
     </properties>
 
     <dependencies>
@@ -89,6 +90,13 @@
 <!--            <groupId>com.alibaba.cloud</groupId>-->
 <!--            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>-->
 <!--        </dependency>-->
+
+        <!--JSON-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
 
     </dependencies>
 
