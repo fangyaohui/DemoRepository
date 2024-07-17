@@ -9,16 +9,19 @@
       <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GrpcDemoUse/GrpcDemoUse.iml" filepath="$PROJECT_DIR$/GRPCDemo/GrpcDemoUse/GrpcDemoUse.iml" />
       <module fileurl="file://$PROJECT_DIR$/GRPCDemo/GrpcDomain/GrpcDomain.iml" filepath="$PROJECT_DIR$/GRPCDemo/GrpcDomain/GrpcDomain.iml" />
       <module fileurl="file://$PROJECT_DIR$/MavenCommon/MavenCommon.iml" filepath="$PROJECT_DIR$/MavenCommon/MavenCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-auth/com-fang-demo-auth.iml" filepath="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-auth/com-fang-demo-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-base.iml" filepath="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-domain/com-fang-demo-biz/com-fang-demo-biz.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-domain/com-fang-demo-biz/com-fang-demo-biz.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-client/com-fang-demo-client.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-client/com-fang-demo-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-domain/com-fang-demo-domain.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-domain/com-fang-demo-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-gateway/com-fang-demo-gateway.iml" filepath="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-gateway/com-fang-demo-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-grpc.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-grpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-maven/com-fang-demo-maven.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-maven/com-fang-demo-maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-nacos/com-fang-demo-nacos.iml" filepath="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-nacos/com-fang-demo-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-platform.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-domain/com-fang-demo-rpc/com-fang-demo-rpc.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-domain/com-fang-demo-rpc/com-fang-demo-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-server/com-fang-demo-server.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-server/com-fang-demo-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-upms/com-fang-demo-upms.iml" filepath="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-upms/com-fang-demo-upms.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-useClient/com-fang-demo-useClient.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-useClient/com-fang-demo-useClient.iml" />
     </modules>
   </component>

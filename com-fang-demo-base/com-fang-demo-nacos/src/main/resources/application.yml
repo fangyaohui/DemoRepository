@@ -22,7 +22,7 @@ nacos:
     # 授权认证相关：https://nacos.io/zh-cn/docs/v2/guide/user/auth.html
     auth:
       # 是否开启认证
-      enabled: true
+      enabled: false
       # 所启用的Nacos的鉴权插件的名称，与`com.alibaba.nacos.plugin.auth.spi.server.AuthPluginService`的`getAuthServiceName`返回值对应
       system.type: nacos
       default.token.secret.key: SecretKey012345678901234567890123456789012345678901234567890123456789
