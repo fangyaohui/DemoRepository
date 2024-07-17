@@ -25,6 +25,7 @@ spring:
     gateway:
       routes:
         - id: upms
+#          uri: http://localhost:51234
           uri: lb://com-fang-demo-upms
           predicates:
             - Path=/user/**
