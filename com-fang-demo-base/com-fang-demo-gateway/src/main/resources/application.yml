@@ -28,9 +28,11 @@ spring:
       routes:
         - id: upms
 #          uri: http://localhost:51234
-          uri: lb://com-fang-demo-upms
+          uri: lb://com-fang-demo-upm
           predicates:
-            - Path=/user/**,/register/**
+            - Path=/api/upm/**
+          filters:
+            - StripPrefix=2
 
   config:
     import:

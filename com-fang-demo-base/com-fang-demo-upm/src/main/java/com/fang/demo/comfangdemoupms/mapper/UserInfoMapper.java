@@ -1,8 +1,8 @@
 package com.fang.demo.comfangdemoupms.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.fang.demo.comfangdemoupms.entity.po.UserInfoPO;
 import org.apache.ibatis.annotations.Mapper;
+import po.UserInfoPO;
 
 /**
  * @FileName UserInfoMapper

@@ -9,10 +9,10 @@
     </parent>
 
 
-    <artifactId>com-fang-demo-upms</artifactId>
+    <artifactId>com-fang-demo-upm</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>com-fang-demo-upms</name>
-    <description>com-fang-demo-upms</description>
+    <name>com-fang-demo-upm</name>
+    <description>com-fang-demo-upm</description>
 
     <properties>
 
@@ -53,6 +53,12 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fang.demo</groupId>
+            <artifactId>com-fang-demo-communal</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
 

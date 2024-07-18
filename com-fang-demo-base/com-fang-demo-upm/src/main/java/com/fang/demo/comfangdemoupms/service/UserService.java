@@ -1,7 +1,7 @@
 package com.fang.demo.comfangdemoupms.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.fang.demo.comfangdemoupms.entity.po.UserInfoPO;
+import po.UserInfoPO;
 
 import java.util.List;
 

@@ -22,7 +22,7 @@
 
 <!--        <module>com-fang-demo-nacos</module>-->
         <module>com-fang-demo-auth</module>
-        <module>com-fang-demo-upms</module>
+        <module>com-fang-demo-upm</module>
         <module>com-fang-demo-gateway</module>
 
     </modules>

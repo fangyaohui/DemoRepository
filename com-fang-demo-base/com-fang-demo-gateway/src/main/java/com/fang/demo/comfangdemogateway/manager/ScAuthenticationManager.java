@@ -1,9 +1,11 @@
 package com.fang.demo.comfangdemogateway.manager;
 
+import com.fang.demo.comfangdemocommunal.utils.JWTUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.ReactiveAuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.AuthenticationException;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 import po.UserInfoPO;
@@ -22,13 +24,18 @@ public class ScAuthenticationManager implements ReactiveAuthenticationManager {
     public Mono<Authentication> authenticate(Authentication authentication) {
 
         String tokenString = (String) authentication.getPrincipal();
+        String token = getJwtToken(tokenString);
 
         // 校验Token是否合法
-        UserInfoPO user = parseToken(tokenString);
-        log.info("ScAuthenticationManager scUser = {}", user);
+        Long roleId = null;
+        if(JWTUtils.validateToken(token)){
+            roleId = JWTUtils.getRoleId(token);
+        }
+        log.info("ScAuthenticationManager roleId = {}", roleId);
 
+        Long finalRoleId = roleId;
         return Mono.just(authentication).map(auth -> {
-            return new UsernamePasswordAuthenticationToken(user, null, null);
+            return new UsernamePasswordAuthenticationToken(finalRoleId, null, null);
         });
     }
 

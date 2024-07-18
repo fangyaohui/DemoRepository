@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ComFangDemoUpmsApplication {
+public class ComFangDemoUpmApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ComFangDemoUpmsApplication.class, args);
+        SpringApplication.run(ComFangDemoUpmApplication.class, args);
     }
 
 }

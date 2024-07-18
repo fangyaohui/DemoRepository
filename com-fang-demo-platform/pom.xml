@@ -23,6 +23,7 @@
         <module>com-fang-demo-grpc</module>
         <module>com-fang-demo-maven</module>
         <module>com-fang-demo-domain</module>
+        <module>com-fang-demo-communal</module>
     </modules>
 
 </project>
