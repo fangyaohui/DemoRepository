@@ -30,7 +30,7 @@ spring:
 #          uri: http://localhost:51234
           uri: lb://com-fang-demo-upms
           predicates:
-            - Path=/user/**
+            - Path=/user/**,/register/**
 
   config:
     import:

@@ -56,7 +56,7 @@ public class WebSecurityConfig {
                 .securityContextRepository(scSecurityContextRepository) //存储认证信息
                 .authenticationManager(scAuthenticationManager) //认证管理
                 .authorizeExchange(exchange -> exchange // 请求拦截处理
-                        .pathMatchers("/favicon.ico", "/userw/**").permitAll()
+                        .pathMatchers("/favicon.ico","/register/**").permitAll()
                         .pathMatchers(HttpMethod.OPTIONS).permitAll()
                         .anyExchange().access(scAuthorizationManager) //权限
                 )
