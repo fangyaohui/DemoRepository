@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.toolkit.ObjectUtils;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.fang.demo.comfangdemocommunal.utils.JWTUtils;
+import com.fang.demo.comfangdemocommunal.utils.RedisUtils;
 import com.fang.demo.comfangdemoupms.mapper.UserInfoMapper;
 import com.fang.demo.comfangdemoupms.service.LoginService;
 import com.fang.demo.comfangdemoupms.utils.R;
@@ -30,6 +31,8 @@ public class LoginServiceImpl implements LoginService {
 
     private UserInfoMapper userInfoMapper;
 
+    private RedisUtils redisUtils;
+
     @Override
     public R<String> signIn(LoginVO loginVO) {
         UserInfoPO userInfoPO = userInfoMapper.selectOne(Wrappers.<UserInfoPO>lambdaQuery()
@@ -41,6 +44,8 @@ public class LoginServiceImpl implements LoginService {
         }
 
         String uuid = String.valueOf(UUID.randomUUID());
+
+        redisUtils.set(uuid,userInfoPO);
 
         String token = JWTUtils.generateToken(uuid,userInfoPO.getRoleId());
         return R.ok(token);
