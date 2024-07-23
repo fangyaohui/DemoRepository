@@ -19,21 +19,4 @@ public class ComFangDemoGatewayApplication {
     public static void main(String[] args) {
         SpringApplication.run(ComFangDemoGatewayApplication.class, args);
     }
-
-//    @Bean
-//    public SecurityWebFilterChain securityWebFilterChain(ServerHttpSecurity http) {
-//        return http
-//                .authorizeExchange()
-//                .pathMatchers("/login", "/oauth","/user/**").permitAll()
-//                .anyExchange().authenticated()
-//                .and()
-//                .httpBasic()
-//                .and()
-//                .formLogin()
-//                .disable()
-//                .csrf()
-//                .disable()
-//                .build();
-//    }
-
 }
