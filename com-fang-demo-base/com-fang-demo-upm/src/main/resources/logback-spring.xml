@@ -84,5 +84,6 @@
 		<appender-ref ref="console"/>
 		<appender-ref ref="debug"/>
 		<appender-ref ref="error"/>
+		<appender-ref ref="info"/>
 	</root>
 </configuration>
