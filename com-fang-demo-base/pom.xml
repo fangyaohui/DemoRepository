@@ -24,6 +24,7 @@
         <module>com-fang-demo-auth</module>
         <module>com-fang-demo-upm</module>
         <module>com-fang-demo-gateway</module>
+        <module>com-fang-demo-consumer</module>
 
     </modules>
 

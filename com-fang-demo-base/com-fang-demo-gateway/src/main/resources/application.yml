@@ -33,6 +33,12 @@ spring:
             - Path=/api/upm/**
           filters:
             - StripPrefix=2
+        - id: consumer
+          uri: lb//com-fang-demo-consumer
+          predicates:
+            - Path=/api/consumer/**
+            filters:
+              - StripPrefix=2
 
   config:
     import:

@@ -2,6 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <artifactId>com-fang-demo-base</artifactId>
         <groupId>com.fang.demo</groupId>
@@ -9,10 +10,10 @@
     </parent>
 
 
-    <artifactId>com-fang-demo-upm</artifactId>
+    <artifactId>com-fang-demo-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>com-fang-demo-upm</name>
-    <description>com-fang-demo-upm</description>
+    <name>com-fang-demo-consumer</name>
+    <description>com-fang-demo-consumer</description>
 
     <properties>
 
