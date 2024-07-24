@@ -1,4 +1,4 @@
-package com.fang.demo.comfangdemoupm.Interceptor;
+package com.fang.demo.comfangdemocommunal.Interceptor;
 
 import com.alibaba.cloud.commons.lang.StringUtils;
 import org.apache.commons.lang3.reflect.FieldUtils;
