@@ -46,7 +46,6 @@ spring:
       testOnBorrow: false
       testOnReturn: false
       poolPreparedStatements: true
-      #   配置监控统计拦截的filters，stat:监控统计、Log4j:日志记录、wall:防御sql注入
       filter:
         stat:
           enabled: true
