@@ -11,7 +11,7 @@
  Target Server Version : 80022
  File Encoding         : 65001
 
- Date: 18/07/2024 16:25:23
+ Date: 24/07/2024 15:50:30
 */
 
 SET NAMES utf8mb4;
@@ -39,7 +39,7 @@ CREATE TABLE `role_info`  (
   `id` bigint NOT NULL AUTO_INCREMENT COMMENT '角色ID',
   `role_name` varchar(255) CHARACTER SET armscii8 COLLATE armscii8_bin NULL DEFAULT NULL COMMENT '角色名称',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = armscii8 COLLATE = armscii8_bin ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = armscii8 COLLATE = armscii8_bin ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of role_info
