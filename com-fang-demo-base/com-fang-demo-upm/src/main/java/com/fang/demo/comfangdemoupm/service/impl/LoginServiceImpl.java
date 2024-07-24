@@ -1,13 +1,12 @@
-package com.fang.demo.comfangdemoupms.service.impl;
+package com.fang.demo.comfangdemoupm.service.impl;
 
 import com.baomidou.mybatisplus.core.toolkit.ObjectUtils;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.fang.demo.comfangdemocommunal.utils.JWTUtils;
 import com.fang.demo.comfangdemocommunal.utils.RedisUtils;
-import com.fang.demo.comfangdemoupms.mapper.UserInfoMapper;
-import com.fang.demo.comfangdemoupms.service.LoginService;
-import com.fang.demo.comfangdemoupms.utils.R;
+import com.fang.demo.comfangdemoupm.mapper.UserInfoMapper;
+import com.fang.demo.comfangdemoupm.service.LoginService;
+import com.fang.demo.comfangdemoupm.utils.R;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -16,7 +15,7 @@ import vo.LoginVO;
 
 import java.util.UUID;
 
-import static com.fang.demo.comfangdemoupms.config.DynamicConstant.LOGIN_ERROR;
+import static com.fang.demo.comfangdemoupm.config.DynamicConstant.LOGIN_ERROR;
 
 /**
  * @FileName LoginServiceImpl

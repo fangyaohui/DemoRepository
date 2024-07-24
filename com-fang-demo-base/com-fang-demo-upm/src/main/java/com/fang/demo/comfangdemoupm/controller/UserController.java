@@ -1,7 +1,7 @@
-package com.fang.demo.comfangdemoupms.controller;
+package com.fang.demo.comfangdemoupm.controller;
 
-import com.fang.demo.comfangdemoupms.service.UserService;
-import com.fang.demo.comfangdemoupms.utils.R;
+import com.fang.demo.comfangdemoupm.service.UserService;
+import com.fang.demo.comfangdemoupm.utils.R;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

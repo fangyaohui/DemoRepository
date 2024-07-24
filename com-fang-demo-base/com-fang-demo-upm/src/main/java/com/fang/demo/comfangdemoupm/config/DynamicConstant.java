@@ -1,4 +1,4 @@
-package com.fang.demo.comfangdemoupms.config;
+package com.fang.demo.comfangdemoupm.config;
 
 /**
  * @FileName DynamicConstant

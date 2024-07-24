@@ -5,6 +5,8 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @FileName UserInfoPO
  * @Description
@@ -13,7 +15,7 @@ import lombok.Data;
  **/
 @Data
 @TableName(value = "user_info")
-public class UserInfoPO {
+public class UserInfoPO implements Serializable {
 
     @TableId(value = "id",type = IdType.AUTO)
     private Long id;

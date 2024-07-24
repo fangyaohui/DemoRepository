@@ -1,4 +1,4 @@
-package com.fang.demo.comfangdemoupms;
+package com.fang.demo.comfangdemoupm;
 
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableDubbo
 @SpringBootApplication
 @EnableDiscoveryClient
-@ComponentScan(value = {"com.fang.demo.comfangdemocommunal.*","com.fang.demo.comfangdemoupms.*"})
+@ComponentScan(value = {"com.fang.demo.comfangdemocommunal.*", "com.fang.demo.comfangdemoupm.*"})
 public class ComFangDemoUpmApplication {
 
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package com.fang.demo.comfangdemoupms.controller;
+package com.fang.demo.comfangdemoupm.controller;
 
-import com.fang.demo.comfangdemoupms.service.LoginService;
-import com.fang.demo.comfangdemoupms.utils.R;
+import com.fang.demo.comfangdemoupm.service.LoginService;
+import com.fang.demo.comfangdemoupm.utils.R;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

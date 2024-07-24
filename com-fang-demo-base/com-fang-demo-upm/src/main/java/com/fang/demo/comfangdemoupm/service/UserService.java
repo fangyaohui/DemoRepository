@@ -1,4 +1,4 @@
-package com.fang.demo.comfangdemoupms.service;
+package com.fang.demo.comfangdemoupm.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import po.UserInfoPO;

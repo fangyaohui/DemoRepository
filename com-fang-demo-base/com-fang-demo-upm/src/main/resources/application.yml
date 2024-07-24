@@ -63,12 +63,15 @@ server:
 dubbo:
   application:
     name: ${spring.application.name}
+    qos-enable: false
   registry:
-    address: nacos://127.0.0.1:8848
+    address: nacos://192.168.0.29:8848
     username: nacos
     password: nacos
-  scan:
-    base-packages: com.fang.demo
+    parameters:
+      namespace: ${spring.cloud.nacos.discovery.namespace}
+#  scan:
+#    base-packages: com.fang.demo.comfangdemoupms.service
   protocol:
     name: dubbo
-    port: 15511
+    port: -1

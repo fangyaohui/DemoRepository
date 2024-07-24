@@ -74,24 +74,25 @@
 
 
         <!--    Dubbo Nacos适配依赖包 开始  -->
+
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.apache.dubbo</groupId>
-            <artifactId>dubbo</artifactId>
+            <artifactId>dubbo-nacos-spring-boot-starter</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.apache.dubbo</groupId>
-            <artifactId>dubbo-registry-nacos</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba.nacos</groupId>
-            <artifactId>nacos-client</artifactId>
-        </dependency>
+
         <!--    Dubbo Nacos适配依赖包 结束  -->
 
+
+        <dependency>
+            <groupId>com.fang.demo</groupId>
+            <artifactId>com-fang-demo-upm</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
 
 

@@ -1,4 +1,4 @@
-package com.fang.demo.comfangdemoupms.mapper;
+package com.fang.demo.comfangdemoupm.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
