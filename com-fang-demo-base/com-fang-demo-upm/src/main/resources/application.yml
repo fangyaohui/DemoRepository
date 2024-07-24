@@ -65,7 +65,7 @@ dubbo:
     name: ${spring.application.name}
     qos-enable: false
   registry:
-    address: nacos://192.168.0.29:8848
+    address: nacos://localhost:8848
     username: nacos
     password: nacos
     parameters:
