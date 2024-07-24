@@ -1,8 +1,9 @@
 package com.fang.demo.comfangdemoupm.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.fang.demo.comfangdemocommunal.service.UserService;
 import com.fang.demo.comfangdemoupm.mapper.UserInfoMapper;
-import com.fang.demo.comfangdemoupm.service.UserService;
+
 import org.apache.dubbo.config.annotation.DubboService;
 import po.UserInfoPO;
 

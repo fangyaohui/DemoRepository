@@ -1,6 +1,6 @@
 package com.fang.demo.comfangdemoconsumer.controller;
 
-import com.fang.demo.comfangdemoupm.service.UserService;
+import com.fang.demo.comfangdemocommunal.service.UserService;
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

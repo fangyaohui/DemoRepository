@@ -1,6 +1,6 @@
 package com.fang.demo.comfangdemoupm.controller;
 
-import com.fang.demo.comfangdemoupm.service.UserService;
+import com.fang.demo.comfangdemocommunal.service.UserService;
 import com.fang.demo.comfangdemoupm.utils.R;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
