@@ -2,13 +2,13 @@ package com.fang.demo.comfangdemoupm.controller;
 
 import com.fang.demo.comfangdemocommunal.service.UserService;
 import com.fang.demo.comfangdemoupm.service.BlogInfoService;
+import com.fang.demo.comfangdemoupm.template.OssTemplate;
+import com.fang.demo.comfangdemoupm.template.impl.MinIOTemplate;
 import com.fang.demo.comfangdemoupm.utils.R;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import po.BlogInfoPO;
 import po.UserInfoPO;
 
@@ -30,6 +30,8 @@ public class UserController {
 
     private BlogInfoService blogInfoService;
 
+    private OssTemplate ossTemplate;
+
     @GetMapping("/getAllUserInfoList")
     public R<String> getAllUserInfoList(){
         List<UserInfoPO> userInfoPOList = userService.getAllUserInfoList();
@@ -44,6 +46,15 @@ public class UserController {
 
         blogInfoService.saveBlogInfo(blogInfoPO);
         return R.ok("asdf");
+    }
+
+    @GetMapping("/uploadImg")
+    public R<String> uploadImg(@RequestParam("file") MultipartFile file){
+        if(ossTemplate.bucketExists("screw-it-development-blog-buck")){
+            log.info("screw-it-development-blog-buck存在");
+        }
+        log.info(String.valueOf(ossTemplate.upLoadFile("blogFoladerName","blogFileName",file)));
+        return R.ok("test");
     }
 
 }
