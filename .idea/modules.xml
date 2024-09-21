@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-server/com-fang-demo-server.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-server/com-fang-demo-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-upm/com-fang-demo-upm.iml" filepath="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-upm/com-fang-demo-upm.iml" />
       <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-useClient/com-fang-demo-useClient.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-grpc/com-fang-demo-useClient/com-fang-demo-useClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-demoSet/demo/demo.iml" filepath="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-demoSet/demo/demo.iml" />
     </modules>
   </component>
 </project>

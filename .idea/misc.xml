@@ -23,6 +23,8 @@
         <option value="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-communal/pom.xml" />
         <option value="$PROJECT_DIR$/com-fang-demo-base/com-fang-demo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-demoSet/pom.xml" />
+        <option value="$PROJECT_DIR$/com-fang-demo-platform/com-fang-demo-demoSet/demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
